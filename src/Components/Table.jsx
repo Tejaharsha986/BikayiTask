@@ -4,7 +4,7 @@ import * as ReactBootStrap from 'react-bootstrap'
 
 function Table({Data,Year,Category}) {
   return (
-    <ReactBootStrap.Table  striped bordered hover className='table table-responsive'>
+    <ReactBootStrap.Table  striped bordered hover className='table table-dark  table-striped'>
         <thead>
       <tr>
         <th>S.No</th>

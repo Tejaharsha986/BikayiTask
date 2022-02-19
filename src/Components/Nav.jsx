@@ -17,8 +17,8 @@ function Nav({setYear,setCategory,setToggle}) {
         <Navbar bg="primary" variant="dark">
             <Container fluid>
             <Navbar.Brand href="">Nobel Prize Winners</Navbar.Brand>
-            <button style = {{backgroundColor:"black"}} className='btn' onClick={() => setToggle(prev => !prev)}>Topwinners</button>
-            <Form className="d-flex">
+            <button style = {{backgroundColor:"white"}} className='btn' onClick={() => setToggle(prev => !prev)}>Winners</button>
+            {/* <Form className="d-flex">
                 <select
                     style={{
                         width: '150px',
@@ -44,7 +44,7 @@ function Nav({setYear,setCategory,setToggle}) {
                         })
                     }
                     </select>
-                    </Form>
+                    </Form> */}
                     </Container>
         </Navbar>
     )
