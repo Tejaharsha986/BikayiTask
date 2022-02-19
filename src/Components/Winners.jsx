@@ -30,7 +30,7 @@ function Winners({Data,setToggle}) {
   getVal()
   return (
     <div className='container'>
-        <ReactBootStrap.Table  striped bordered hover className='table table-responsive'>
+        <ReactBootStrap.Table  striped bordered hover className='table table-dark  table-striped'>
             <thead>
                 <tr>
                     <th>Name</th>
