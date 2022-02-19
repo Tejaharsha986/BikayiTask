@@ -1,18 +1,16 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
-import { val } from '../Data/years'
-import { Form } from 'react-bootstrap'
-import { Category } from '../Data/Catagory'
 
-function Nav({setYear,setCategory,setToggle}) {
 
-    let handlechange = (e) =>{
-        setYear(prev => prev = e.target.value)
-      }
-    let handleCatagory = (e) =>{
-        setCategory(prev => prev = e.target.value)
-      }
+function Nav({setToggle}) {
+
+    // let handlechange = (e) =>{
+    //     setYear(prev => prev = e.target.value)
+    //   }
+    // let handleCatagory = (e) =>{
+    //     setCategory(prev => prev = e.target.value)
+    //   }
     return (
         <Navbar bg="primary" variant="dark">
             <Container fluid>
