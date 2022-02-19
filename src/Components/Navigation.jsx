@@ -12,7 +12,7 @@ function Nav({setToggle}) {
             <Navbar.Brand href="">Nobel Prize Winners</Navbar.Brand>
             <button style = {{backgroundColor:"white"}} className='btn' onClick={() => setToggle(prev => !prev)}>Winners</button>
             
-                    </Container>
+                </Container>
         </Navbar>
     )
 }
