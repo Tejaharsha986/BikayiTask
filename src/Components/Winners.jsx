@@ -46,7 +46,7 @@ function Winners({Data,setToggle}) {
             })}
             </tbody>
         </ReactBootStrap.Table>
-        <button className='btn ' style={{backgroundColor:'skyblue'}} onClick={() => setToggle(prev => !prev)}>Go Back</button>
+        <button className='btn ' style={{backgroundColor:'white'}} onClick={() => setToggle(prev => !prev)}>Home</button>
     </div>
   )
 }
