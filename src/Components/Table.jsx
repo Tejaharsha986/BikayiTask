@@ -1,11 +1,11 @@
 import React from 'react'
-import Laureates from './Laureates'
+import Laureates from './Laur'
 import * as ReactBootStrap from 'react-bootstrap'
 
 function Table({Data,Year,Category}) {
   return (
     <ReactBootStrap.Table  striped bordered hover className='table table-dark  table-striped'>
-        <thead>
+        <thead classs ='thead-light'>
       <tr>
         <th>S.No</th>
         <th>Year</th>
